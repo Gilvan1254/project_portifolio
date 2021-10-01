@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.meu-banner {
+    background-image: url(./imagens/Sistemas-Informação-imagem-principal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu {
+    padding: 3px;
+    width: 10%;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  margin-left: 5px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+.hamburguer-menu {
+    height: 14%;
+    background-color: rgb(29, 29, 29);
+}
+
+
+.active {
+    display: block;
+}
+
+.unactive {
+    display: none;
+}
+
+#nome-fantasia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(233, 233, 233);
+    color: rgb(36, 36, 36);
+}
+
+.presentation-text {
+    width: 80%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+
+
+.minha-logo {
+    width: 90%;
+
+
+}
+
+#descricao-projeto {
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.repositorie-container {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.repositorie-container p {
+    padding-left: 5px;
+}
+
+.descricao {
+    font-style: unset;
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.descricao02 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+
+#my-projects {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 61, 61);
+    font-family: 'Montserrat';
+    color: rgb(235, 235, 235);
+    align-items: center;
+}
+
+#my-projects h3 {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.projects-urls {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.arrow {
+    width: 15%;
+    height: 15%;
+}
+
+#project-01 img {
+    width: 92%;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow:  2px 4px 15px black;
+}
+
+
+
+iframe {
+    margin: 10px;
+}
+
+#contacts {
+    background-color: black;
+    color: rgb(235, 235, 235);
+    font-family: 'Montserrat';
+}
+
+#contacts h4 {
+    margin: 0px;
+    padding: 10px;;
+}
+
+.icons {
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+#contacts img {
+    width: 10%;
+    padding: 5px;
+}
+
+.email {
+    margin: 0px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
